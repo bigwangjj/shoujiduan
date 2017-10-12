@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    <meta name="format-detection" content="telphone=no, email=no">
+    <link rel="stylesheet" href="css/common.css"/>
+    <script src="js/resize.js"></script>
+    <link rel="stylesheet" href="css/center_login.css"/>
+    <title>个人中心</title>
+</head>
+<body>
+<div class="cenlayout">
+    <div class="lo_centerTop">
+        <p class="lo_icon"><span class="lo_title">个人中心</span><a href="#"><img src="images/center_3.png" alt=""/></a></p>
+        <dl>
+            <dt><img src="images/center_1.png" alt=""/></dt>
+            <dd>15858267957</dd>
+        </dl>
+    </div>
+    <div class="lo_centerNav">
+        <ul class="clearfix">
+            <li>
+                <a href="#">
+                    <img src="images/setting/package.png" alt=""/>
+                    <p>我的钱包</p>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="images/setting/bank_card.png" alt=""/>
+                    <p>银行卡</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="lo_content">
+
+        <div class="links">
+            <dl class="links_dl">
+                <dd>
+                    <a href="">
+                        <span class="link_img"><img src="images/setting/setting_01.png" alt=""></span>
+                        <span class="label">我的额度</span>
+                    </a>
+                    
+                </dd>
+                <dd>
+                    <a href="">
+                        <span class="link_img"><img src="images/setting/setting_02.png" alt=""></span>
+                        <span class="label">账单还款</span>
+                    </a>
+                    
+                </dd>
+                <dd>
+                    <a href="">
+                        <span class="link_img"><img src="images/setting/setting_03.png" alt=""></span>
+                        <span class="label">优惠券</span>
+                    </a>
+                    
+                </dd>
+                <dd>
+                    <a href="">
+                        <span class="link_img"><img src="images/setting/setting_04.png" alt=""></span>
+                        <span class="label">代理申请</span>
+                    </a>
+                    
+                </dd>
+            </dl>
+            <dl class="links_dl">
+                <dd>
+                    <a href="">
+                        <span class="link_img"><img src="images/setting/setting_05.png" alt=""></span>
+                        <span class="label">常见问题</span>
+                    </a>
+                    
+                </dd>
+                <dd>
+                    <a href="">
+                        <span class="link_img"><img src="images/setting/setting_06.png" alt=""></span>
+                        <span class="label">黑名单库</span>
+                    </a>
+                    
+                </dd>
+                <dd>
+                    <a href="">
+                        <span class="link_img"><img src="images/setting/setting_07.png" alt=""></span>
+                        <span class="label">在线客服</span>
+                    </a>
+                </dd>
+                <dd>
+                    <a href="">
+                        <span class="link_img"><img src="images/setting/setting_08.png" alt=""></span>
+                        <span class="label">设置</span>
+                    </a>
+                </dd>
+                
+            </dl> 
+        </div>
+        
+        
+    </div>
+    <div class="lo_content lo_about">
+       <ul class="lo_ul">
+            <li>
+                <p>关于我们<a href="#"><img src="images/arrorR_1.png" alt=""/></a></p>
+              
+            </li>
+            <li>
+                <p>客服电话<small class="small">0571-5878987</small><a href="#"><img src="images/arrorR_1.png" alt=""/></a></p>
+              
+            </li>
+        </ul> 
+   
+    </div>
+    <div class="lo_centerBot">
+        <ul class="clearfix">
+            <li class="active">
+                <a href="#">
+                    <dl>
+                        <dt></dt>
+                        <dd>钱包</dd>
+                    </dl>
+                </a>
+            </li>
+            <li class="">
+                <a href="#">
+                    <dl>
+                        <dt></dt>
+                        <dd>提额</dd>
+                    </dl>
+                </a>
+            </li>
+            <li class="">
+                <a href="#">
+                    <dl>
+                        <dt></dt>
+                        <dd>发现</dd>
+                    </dl>
+                </a>
+            </li>
+            <li class="">
+                <a href="#">
+                    <dl>
+                        <dt></dt>
+                        <dd>我的</dd>
+                    </dl>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+<script src="js/jquery-3.1.0.min.js"></script>
+<script>
+    $(".lo_centerBot li").on("click",function(){
+        $(this).addClass("active");
+        $(this).siblings().removeClass("active");
+    })
+</script>
+</body>
+</html>

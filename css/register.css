@@ -1,0 +1,135 @@
+div.layout{
+    position: absolute;
+    background:#ECECEC;
+    min-height: 100%;
+    width:100%;
+    padding-top:0.26rem;
+}
+ul.registerForm{
+    width:100%;
+    padding:0.05rem 0.25rem;
+    background:#fff;
+}
+ul.registerForm li{
+    width:100%;
+    height:1.1rem;
+    border-bottom:1px solid #CACACA;
+}
+ul.registerForm li:last-child{
+    border:0;
+}
+ul.registerForm img{
+    width:0.32rem;
+    height:0.4rem;
+    margin-top:0.4rem;
+}
+ul.registerForm li b{
+    float:left;
+    height:1rem;
+    width:0.5rem;
+    text-align:left;
+}
+ul.registerForm li input{
+    width:3.5rem;
+    height:0.5rem;
+    vertical-align: middle;
+    color:#9A9A9A;
+    margin-top:0.4rem;
+    font-size:0.24rem;
+    padding-left:0.05rem;
+}
+.registerForm .getValidate{
+    float:right;
+    margin-top:0.4rem;
+    margin-right:0.1rem;
+    width:1.7rem;
+    text-align:center;
+    color:#fff;
+    background:#09CCC8;
+    -webkit-border-radius:0.2rem;
+    -moz-border-radius:0.2rem;
+    border-radius:0.2rem;
+    height:0.5rem;
+    line-height: 0.5rem;
+    font-size:0.24rem;
+}
+.registerForm .inviteFill{
+    float:right;
+    margin-right:0.4rem;
+    margin-top:0.45rem;
+    font-size:0.26rem;
+    color:#B6B6B6;
+}
+.registerBtn{
+    margin-top:0.2rem;
+    width:100%;
+    text-align:center;
+}
+.registerBtn>a{
+    display: inline-block;
+    width:5rem;
+    height:0.7rem;
+    line-height: 0.7rem;
+    font-size:0.3rem;
+    color:#fff;
+    -webkit-border-radius: 0.35rem;
+    -moz-border-radius: 0.35rem;
+    border-radius: 0.35rem;
+    margin:0.4rem 0;
+}
+.registerBtn>a:first-child{
+    background:#B8B8B8;
+}
+.registerBtn>a.active{
+    background:#04C8D4;
+}
+.registerBtn>p{
+    height:0.4rem;
+    line-height: 0.4rem;
+    font-size:0.26rem;
+    color:#999;
+}
+.registerBtn>p a{
+    color:#03CBCB;
+}
+
+
+/*regSucc*/
+.regSucc{
+    width:100%;
+    text-align:center;
+}
+.regSucc img{
+    margin-top:0.6rem;
+    width:1.1rem;
+    height:1.1rem;
+}
+.regSucc .succInfo{
+    font-size:0.26rem;
+    color:#09C9CA;
+    height:0.5rem;
+    line-height: 0.5rem;
+}
+
+.regSucc .succTxt{
+    font-size:0.24rem;
+    width:4.8rem;
+    line-height: 0.5rem;
+    color:#656565;
+    margin:0 auto;
+    margin-top:0.3rem;
+}
+.regSucc .succBtn{
+    display: block;
+    width:5.2rem;
+    height:0.8rem;
+    line-height: 0.8rem;
+    color:#fff;
+    font-size:0.26rem;
+    margin:0 auto;
+    margin-top:0.8rem;
+    background:#04C8D4;
+    -webkit-border-radius: 0.4rem;
+    -moz-border-radius: 0.4rem;
+    border-radius: 0.4rem;
+}

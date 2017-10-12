@@ -1,0 +1,60 @@
+*,
+::after,
+::before{
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+    /*从边框开始计算  盒子模型*/
+    -webkit-box-sizing:border-box;
+    box-sizing: border-box;
+}
+body{
+    font-size: 0.16rem;
+    font-family: "Microsoft YaHei",Helvitica,Verdana,Tohoma,Arial,"sans-serif";
+}
+a{
+    color:#4D4D4D;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+input{
+    border: none;
+    outline:0;
+    /*ios端的输入框样式去除*/
+    -webkit-appearance:none;
+}
+img{
+    /*-webkit-border-radius: 5px;*/
+    /*-moz-border-radius: 5px;*/
+    /*border-radius: 5px;*/
+    vertical-align:top;
+}
+/*ie黑色边框兼容*/
+a img{
+    border:0;
+}
+li{
+    list-style: none;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.clearfix::before,
+.clearfix::after{
+    content: "";
+    height: 0;
+    line-height: 0;
+    display: block;
+    visibility: hidden;
+    clear: both;
+    overflow: hidden;
+}
